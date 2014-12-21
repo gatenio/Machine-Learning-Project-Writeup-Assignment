@@ -254,7 +254,7 @@ testing0=read.csv(&quot;pml-testing.csv&quot;,na.strings=c(&quot;NA&quot;,&quot;
 
 <hr/>
 
-<h2>Cleaning data sets &amp; decrease unneccesary variables due to RF model limitations (less than 53 variablesrequired)</h2>
+<h2>Cleaning data sets &amp; decrease unneccesary variables due to RF model limitations (less than 53 variables required)</h2>
 
 <pre><code class="r">training&lt;-training0[,colSums(is.na(training0)) == 0]
 #dim(training)

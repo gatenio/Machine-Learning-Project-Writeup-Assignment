@@ -58,7 +58,7 @@ testing0=read.csv("pml-testing.csv",na.strings=c("NA","#DIV/0!", ""))
 #dim(testing)#[1]  20 60
 ```
 ---
-Cleaning data sets & decrease unneccesary variables due to RF model limitations (less than 53 variablesrequired)
+Cleaning data sets & decrease unneccesary variables due to RF model limitations (less than 53 variables required)
 ---
 ```{r}
 
